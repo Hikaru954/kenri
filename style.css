@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center; /* 横中央 */
+    margin-top: 10px
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.ad {
+    width: 300px;
+    height: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+
+body {
+    margin: 0;
+    padding: 0 5%;
+}
+.all-center{
+    display: flex;
+    justify-content: center; /* 横中央 */
+    align-items: center;     /* 縦中央 */
+}
+.all-center-item {
+    display: flex;
+    align-items: center; /* 画像と文字を縦方向に中央揃え */
+    gap: 20px;           /* 画像と文字の間隔 */
+}
+
+h1 {
+    background-color: #1cc288;
+    color: white;
+    padding: 15px 10px;
+}
+
+h4 {
+    background-color: #000000;
+    color: white;
+    padding: 5px 10px;
+    
+}
+
+footer{
+    background-color: #1cc288;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
